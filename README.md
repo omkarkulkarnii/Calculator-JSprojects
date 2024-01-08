@@ -1,2 +1,2 @@
 # JavaScript-introductoryprojects
-Hello, this is the basic javascript project. Calculator
+Hello, this is the basic javascript project, Calculator..
