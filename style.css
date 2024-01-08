@@ -1,0 +1,94 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ .tri {
+     width: 100;
+     height: 100vh;
+     display: flex;
+     justify-content: center;/*horizontal*/
+     align-items: center;/*vertical*/
+     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(207, 50, 89, 1) 23%, rgba(0, 212, 255, 1) 100%);
+
+ }
+
+ .calculator {
+     border: 1px solid #717377;
+     padding: 20px;
+     border-radius: 16px;
+     background: transparent;
+     box-shadow: 0px 3px 15px rgb(246, 240, 240);
+ }
+
+
+ input {
+     color: rgb(222, 203, 203);
+     width: 320px;
+     border: none;
+     padding: 24px;
+     margin: 10px;
+     background: transparent;
+     font-size: 40px;
+     box-shadow: 0px 2px 10px rgbs(84, 84, 84, 0.1);
+     text-align: right;
+     cursor: pointer;
+ }
+
+
+ input::placeholder {
+     color: antiquewhite;
+ }
+
+ button{
+     border: none;
+     width: 60px;
+     height: 60px;
+     margin: 10px;
+     border-radius: 50%;
+     box-shadow: 0px -3px 15px rgb(177, 177, 214);
+     background: transparent;
+     color: white;
+     font-size: 20px;
+ }
+
+ #eql{
+    background-color: rgb(216, 170, 84);
+    color: yellow;
+ }
+
+
+
+ .onPressed{
+    border: none;
+    width: 60px;
+    height: 55px;
+    margin: 10px;
+    border-radius: 40%;
+    box-shadow: 0px -3px 15px rgb(177, 177, 214);
+    background: transparent;
+    color: rgb(245, 236, 221);
+    font-size: 20px;
+ }
+
+
+
+#about{
+display: flex;
+ height: 80px;
+/* width: 100vh; */
+/* padding: 50%; */
+justify-content: center;
+align-items: center;
+font-size:20px;
+color: rgb(197, 101, 101);
+
+ }
+
+ #ph{
+ border-radius: 50%;
+    height: 60px;
+    width: 60px;
+ }
